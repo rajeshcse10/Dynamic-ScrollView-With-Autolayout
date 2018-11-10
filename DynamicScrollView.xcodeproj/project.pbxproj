@@ -12,6 +12,8 @@
 		6DA2BD8021969D92005E33E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2BD7E21969D92005E33E5 /* Main.storyboard */; };
 		6DA2BD8221969D94005E33E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2BD8121969D94005E33E5 /* Assets.xcassets */; };
 		6DA2BD8521969D94005E33E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2BD8321969D94005E33E5 /* LaunchScreen.storyboard */; };
+		6DA2BD8D21969DB8005E33E5 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2BD8C21969DB8005E33E5 /* MyCustomView.swift */; };
+		6DA2BD8F21969DCE005E33E5 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2BD8E21969DCE005E33E5 /* MyCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6DA2BD8121969D94005E33E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA2BD8421969D94005E33E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA2BD8621969D94005E33E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA2BD8C21969DB8005E33E5 /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		6DA2BD8E21969DCE005E33E5 /* MyCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		6DA2BD7921969D91005E33E5 /* DynamicScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				6DA2BD8C21969DB8005E33E5 /* MyCustomView.swift */,
+				6DA2BD8E21969DCE005E33E5 /* MyCustomView.xib */,
 				6DA2BD7A21969D92005E33E5 /* AppDelegate.swift */,
 				6DA2BD7C21969D92005E33E5 /* ViewController.swift */,
 				6DA2BD7E21969D92005E33E5 /* Main.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA2BD8521969D94005E33E5 /* LaunchScreen.storyboard in Resources */,
+				6DA2BD8F21969DCE005E33E5 /* MyCustomView.xib in Resources */,
 				6DA2BD8221969D94005E33E5 /* Assets.xcassets in Resources */,
 				6DA2BD8021969D92005E33E5 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA2BD7D21969D92005E33E5 /* ViewController.swift in Sources */,
+				6DA2BD8D21969DB8005E33E5 /* MyCustomView.swift in Sources */,
 				6DA2BD7B21969D92005E33E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
